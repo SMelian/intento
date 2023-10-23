@@ -14,10 +14,10 @@ function App() {
   return (
   < >
  <BrowserRouter>
-  <NavBar></NavBar>
+  <NavBar/>
    <Header/>
    <Main/>
-   <Footer></Footer>
+   <Footer/>
    </BrowserRouter>
   </>)
   } else {
@@ -25,7 +25,7 @@ function App() {
 return(
 
   <>
-  <h1 className={"header-"+nombre}> Estupida pone bien el nombre es horacio y no { nombre}</h1>
+  <h1 className={"header-"+nombre}> Pone bien el nombre es horacio y no { nombre}</h1>
   <Footer></Footer>
   </>
 )
